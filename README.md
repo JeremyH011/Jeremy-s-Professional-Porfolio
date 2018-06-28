@@ -1,4 +1,5 @@
 # Professional-Porfolio
+Experience with: Arduino, C/C++, Go, HTML w. CSS, Java, JavaScript, mySQL, Python, Verilog
 
 ## Experiences and Ideas:
 
