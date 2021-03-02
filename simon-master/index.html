@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simon</title>
+	<link rel="stylesheet" href="css/simon.css" />
+</head>
+<body>
+	<!-- Links to audio files for C-F notes -->
+	<!-- For some reasons, I had to get rid of the starting '/' for any src or href to be found. -->
+	<audio id="c-audio">
+		<source src="media/c_note.mp3" type="audio/mpeg"></source>
+		<source src="media/c_note.ogg" type="audio/ogg"></source>
+		<source src="media/c_note.wav" type="audio/wav"></source>
+	</audio>
+	<audio id="d-audio">
+		<source src="media/d_note.mp3" type="audio/mpeg"></source>
+		<source src="media/d_note.ogg" type="audio/ogg"></source>
+		<source src="media/d_note.wav" type="audio/wav"></source>
+	</audio>
+	<audio id="e-audio">
+		<source src="media/e_note.mp3" type="audio/mpeg"></source>
+		<source src="media/e_note.ogg" type="audio/ogg"></source>
+		<source src="media/e_note.wav" type="audio/wav"></source>
+	</audio>
+	<audio id="f-audio">
+		<source src="media/f_note.mp3" type="audio/mpeg"></source>
+		<source src="media/f_note.ogg" type="audio/ogg"></source>
+		<source src="media/f_note.wav" type="audio/wav"></source>
+	</audio>
+	<!-- Note boxes -->
+	<div id="title_card" style="text-align:center; color:white;">
+		<p id="status" style="font-size:32px;">Welcome to the Worst 'Simon Says' Game in the World.<br>Press 'Generate Pattern' to begin.</p>
+	</div>
+	<div id="simon">
+		<div id="c" class="note-box"></div>
+		<div id="d" class="note-box"></div>
+		<div id="e" class="note-box"></div>
+		<div id="f" class="note-box"></div>
+		<div id="generate" class="generate_pattern">Generate Pattern</div>
+	</div>
+	<script src="js/simon.js"></script>
+</body>
+</html>
